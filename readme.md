@@ -37,14 +37,17 @@ curl https://raw.githubusercontent.com/katzueno/mautic-install-shell/master/inst
 - Click "Preview" to open the browser
 - Proceed to installation
 
-Use the following MySQL information to install
+Use the following MySQL information during `STEP 1: Mautic Installation - Database Setup`.
 
-Type           | Content
----------------|-----
-MySQL Address  | 127.0.0.1
-MySQL Username | mautic
-MySQL Password | mautic
-Database Name  | c9
+Type              | Content
+------------------|-----
+Database Driver   | MySQL PDO
+Database Host     | 127.0.0.1
+Database Port     | 3306
+Database Name     | c9
+Database Table Prefix | -- (blank)
+Database Username | mautic
+Database Password | mautic
 
 Enter the rest of the required information as you wish.
 
