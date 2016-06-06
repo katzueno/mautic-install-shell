@@ -1,6 +1,6 @@
 # Mautic Install Shell Script for Cloud9
 
-This is simple shell script to install Mautic on [Cloud9](https://c9.io/c/t3lGIvLecba). Cloud9 is the cloud service to provide online code editor and Ubuntu server. If it's public workspace and one private one, you can use the service for free!
+This is simple shell script to install Mautic on [Cloud9](https://c9.io/c/t3lGIvLecba). Cloud9 is the cloud service to provide online code editor and Ubuntu server. They also have free account.
 
 I made this shell script for [Mautic Meetup Nagoya](http://www.meetup.com/Mautic-Meetup-Nagoya/) workshops, and creating a quick demo.
 
