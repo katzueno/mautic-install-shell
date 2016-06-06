@@ -7,7 +7,7 @@
 
 # INSTRUCTION:
 # ----------
-# TBA
+# https://github.com/katzueno/mautic-install-shell
 
 # USE IT AT YOUR OWN RISK!
 
