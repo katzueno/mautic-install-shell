@@ -28,8 +28,7 @@ Copy and paste the following texts and paste onto the Cloud9 terminal window to 
 
 
 ```
-wget https://github.com/katzueno/mautic-install-shell/blob/master/install-mautic-cloud9.bash
-sh install-mautic-cloud9.bash
+curl https://raw.githubusercontent.com/katzueno/mautic-install-shell/master/install-mautic-cloud9.bash | bash
 
 ```
 
