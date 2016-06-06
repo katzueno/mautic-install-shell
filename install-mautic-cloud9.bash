@@ -4,12 +4,12 @@
 # ----------
 # Version 0.1
 # By katzueno
-
 # INSTRUCTION:
 # ----------
 # https://github.com/katzueno/mautic-install-shell
-
 # USE IT AT YOUR OWN RISK!
+
+
 
 # VARIABLES
 # ----------

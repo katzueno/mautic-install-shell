@@ -10,7 +10,7 @@ Currently, this script downloads 1.4.1.
 
 ## STEP 2: Initiate MySQL
 
-Copy and paste the following texts and paste onto the Cloud9 terminal window to start MySQL and create user and password.
+Copy and paste the following texts and paste onto the Cloud9 bash terminal window to start MySQL and create user and password.
 
 ```
 mysql-ctl start
@@ -24,9 +24,12 @@ exit;
 
 ## STEP 3: Download & Initialte the file
 
+Copy and paste the following texts and paste onto the Cloud9 terminal window to download and initiate Mautic install.
+
+
 ```
 wget https://github.com/katzueno/mautic-install-shell/blob/master/install-mautic-cloud9.bash
-sh install-mautic-cloud9.sh
+sh install-mautic-cloud9.bash
 
 ```
 
