@@ -2,7 +2,7 @@
 
 This is simple shell script to install Mautic on [Cloud9](https://c9.io/c/t3lGIvLecba)
 
-Currently, this script downloads 1.4.1.
+Currently, this script downloads Mautic version 1.4.1.
 
 ## STEP 1: Create a worksplace
 
@@ -34,7 +34,8 @@ curl https://raw.githubusercontent.com/katzueno/mautic-install-shell/master/inst
 
 ## STEP 4: Launch your browser to proceed to browser installation
 
-- Click "Preview" to open the browser
+- Click "Run" to start running apache
+- Click "Preview" - "Preview Running Application" to launch cloud9 installation page
 - Proceed to installation
 
 Use the following MySQL information during `STEP 1: Mautic Installation - Database Setup`.
