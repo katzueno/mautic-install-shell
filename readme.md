@@ -1,6 +1,6 @@
 # Mautic Install Shell Script for Cloud9
 
-This is simple shell script to install Mautic on Cloud9
+This is simple shell script to install Mautic on [Cloud9](https://c9.io/c/t3lGIvLecba)
 
 Currently, this script downloads 1.4.1.
 
