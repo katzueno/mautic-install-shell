@@ -25,7 +25,7 @@ exit;
 
 ```
 
-## STEP 3: Download & initialte the file
+## STEP 3: Download & run the script
 
 Copy the following text and paste onto the Cloud9 terminal window to download and initiate Mautic install.
 
