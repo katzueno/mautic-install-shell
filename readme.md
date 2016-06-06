@@ -55,6 +55,9 @@ Database Password | mautic
 
 Enter the rest of the required information as you wish.
 
+# Pull Request is Welcome!
+
+I just made this shell script really quick in 30min. I encourage you to suggest new feature and send me a pull request to add more feature and options.
 
 # Credit
 
