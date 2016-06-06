@@ -25,7 +25,7 @@ exit;
 
 ```
 
-## STEP 3: Download & Initialte the file
+## STEP 3: Download & initialte the file
 
 Copy the following text and paste onto the Cloud9 terminal window to download and initiate Mautic install.
 
@@ -35,7 +35,7 @@ curl https://raw.githubusercontent.com/katzueno/mautic-install-shell/master/inst
 
 ```
 
-## STEP 4: Launch your browser to proceed to browser installation
+## STEP 4: Launch your browser, and proceed to browser installation
 
 - Click "Run" to start running apache
 - Click "Preview" - "Preview Running Application" to launch cloud9 installation page
@@ -55,7 +55,7 @@ Database Password | mautic
 
 Enter the rest of the required information as you wish.
 
-# Pull Request is Welcome!
+# Pull request is welcome!
 
 I just made this shell script really quick in 30min. I encourage you to suggest new feature and send me a pull request to add more feature and options.
 
