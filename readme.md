@@ -67,3 +67,7 @@ concrete5 Japan, Inc. is helping various company's concrete5 & Mautic project. P
 
 https://concrete5.co.jp/
 
+# License
+
+This shell script is released under MIT License.
+
