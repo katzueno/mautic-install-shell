@@ -15,9 +15,9 @@
 # VARIABLES
 # ----------
 
-DOWNLOAD_URL="https://github.com/mautic/mautic/archive/1.4.1.zip"
+DOWNLOAD_URL="https://github.com/mautic/mautic/archive/2.1.1.zip"
 DESTINATION="/home/ubuntu/workspace"
-VERSION="1.4.1"
+VERSION="2.1.1"
 INSTALL_PHPMYADMIN="yes"
 
 # EXEC
