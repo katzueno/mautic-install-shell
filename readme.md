@@ -4,7 +4,7 @@ This is simple shell script to install Mautic on [Cloud9](https://c9.io/c/t3lGIv
 
 I made this shell script for [Mautic Meetup Nagoya](http://www.meetup.com/Mautic-Meetup-Nagoya/) workshops, and creating a quick demo.
 
-Currently, this script downloads and deploy Mautic version 1.4.1.
+Currently, this script downloads and deploy Mautic version 2.1.1.
 
 ## STEP 1: Create a worksplace
 
