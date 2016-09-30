@@ -12,6 +12,7 @@
 
 
 
+
 # VARIABLES
 # ----------
 
@@ -19,6 +20,21 @@ DOWNLOAD_URL="https://github.com/mautic/mautic/archive/2.1.1.zip"
 DESTINATION="/home/ubuntu/workspace"
 VERSION="2.1.1"
 INSTALL_PHPMYADMIN="yes"
+
+# INSTALL PHP7
+# ----------
+cd ${DESTINATION}
+sudo apt-get update
+sudo apt-get install libmcrypt-dev
+curl -L -O https://github.com/phpbrew/phpbrew/raw/master/phpbrew
+chmod +x phpbrew
+sudo mv phpbrew /usr/local/bin/
+phpbrew init
+[[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc
+phpbrew lookup-prefix ubuntu
+phpbrew install 7.0.11 +default +mysql +pdo +fpm +opcache +intl
+phpbrew switch php-7.0.11
+phpbrew use php-7.0.11
 
 # EXEC
 # ----------
