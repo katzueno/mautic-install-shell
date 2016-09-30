@@ -32,7 +32,7 @@ sudo mv phpbrew /usr/local/bin/
 phpbrew init
 [[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc
 phpbrew lookup-prefix ubuntu
-phpbrew install 7.0.11 +default +mysql +pdo +fpm +opcache +intl
+phpbrew install 7.0.11 +default +mysql +pdo +fpm +opcache +intl +curl +mcrypt +gd +iconv
 phpbrew switch php-7.0.11
 phpbrew use php-7.0.11
 
