@@ -32,19 +32,28 @@ Copy the following text one by one and paste on to the Cloud9 bash terminal wind
 ```
 sudo apt-get update
 sudo apt-get install libmcrypt-dev
-curl -L -O https://github.com/phpbrew/phpbrew/raw/master/phpbrew
-chmod +x phpbrew
-sudo mv phpbrew /usr/local/bin/
-phpbrew init
-[[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc
-phpbrew lookup-prefix ubuntu
-phpbrew install 7.0.11 +default +mysql +pdo +fpm +opcache +intl +curl +mcrypt +gd +iconv
-phpbrew initphpbrew switch php-7.0.11
-phpbrew use php-7.0.11
-phpbrew app get composer
+sudo apt-get install php-mcrypt
+sudo apt-get install php-curl
+wget -O - https://raw.githubusercontent.com/GabrielGil/c9-lemp/master/install.sh | bash
 ```
 
-## STEP 3: Download & run the script
+## STEP 4: Start LEMP
+
+From now on, you will need to use the following commands to start and stop nignx.
+You CANNOT use the start and stop menu any more.
+
+
+Start the services
+```
+lemp start
+```
+
+Stop the services
+```
+lemp stop
+```
+
+## STEP 5: Download & run the script
 
 Copy the following text and paste onto the Cloud9 terminal window to download and initiate Mautic install.
 
