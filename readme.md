@@ -63,7 +63,7 @@ curl https://raw.githubusercontent.com/katzueno/mautic-install-shell/master/inst
 
 ```
 
-## STEP 4: Launch your browser, and proceed to browser installation
+## STEP 6: Launch your browser, and proceed to browser installation
 
 - Click "Run" to start running apache
 - Click "Preview" - "Preview Running Application" to launch cloud9 installation page
