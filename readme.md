@@ -4,7 +4,7 @@ This is simple shell script to install Mautic on [Cloud9](https://c9.io/c/t3lGIv
 
 I made this shell script for [Mautic Meetup Nagoya](http://www.meetup.com/Mautic-Meetup-Nagoya/) workshops, and creating a quick demo.
 
-Currently, this script downloads and deploy Mautic version 2.1.1.
+Currently, this script downloads and deploy Mautic version 2.4.0.
 
 ## STEP 1: Create a worksplace
 
@@ -25,41 +25,29 @@ exit;
 
 ```
 
-## STEP 3: Install PHP 7 onto Cloud9
+## [OPTION] STEP 3: Modify the script
 
-Copy the following text one by one and paste on to the Cloud9 bash terminal window to install PHP ver 7
+If you would like to modify the installation script, download the file from GitHub and modify the script if needed. Then upload the file somewhere remote where accessible from Cloud9.
 
-```
-curl -L https://raw.githubusercontent.com/GabrielGil/c9-lemp/master/install.sh | bash
-```
-
-## STEP 4: Start LEMP
-
-From now on, you will need to use the following commands to start and stop nignx.
-You CANNOT use the start and stop menu any more.
-
-
-Start the services
-```
-lemp start
-```
-
-Stop the services
-```
-lemp stop
-```
-
-## STEP 5: Download & run the script
+## STEP 4: Download & run the script
 
 Copy the following text and paste onto the Cloud9 terminal window to download and initiate Mautic install.
 
 
+Default
+
 ```
 curl https://raw.githubusercontent.com/katzueno/mautic-install-shell/master/cloud9-install-mautic.bash | bash
-
 ```
 
-## STEP 6: Launch your browser, and proceed to browser installation
+Option
+
+```
+curl [Your custom script] | bash
+```
+
+
+## STEP 5: Launch your browser, and proceed to browser installation
 
 - Click "Run" to start running apache
 - Click "Preview" - "Preview Running Application" to launch cloud9 installation page

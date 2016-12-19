@@ -36,6 +36,7 @@ if [ "$INSTALL_LEMP" = "yes" ]; then
     sudo wget ${LEMP_NGINX_CONFIG} --output-document=/etc/nginx/sites-available/c9
     sudo chmod 755 /etc/nginx/sites-available/c9
     sudo ln -s /etc/nginx/sites-available/c9 /etc/nginx/sites-enabled/c9
+    sudo apt-get install mcrypt php7.0-mcrypt
     lemp restart
     lemp status
 fi
@@ -43,4 +44,5 @@ wget ${DOWNLOAD_URL}
 unzip ${VERSION}.zip
 mv mautic-${VERSION}/* ./
 rm -rf mautic-${VERSION}
+rm ${VERSION}.zip
 composer install
