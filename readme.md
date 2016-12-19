@@ -30,11 +30,7 @@ exit;
 Copy the following text one by one and paste on to the Cloud9 bash terminal window to install PHP ver 7
 
 ```
-sudo apt-get update
-sudo apt-get install libmcrypt-dev
-sudo apt-get install php-mcrypt
-sudo apt-get install php-curl
-wget -O - https://raw.githubusercontent.com/GabrielGil/c9-lemp/master/install.sh | bash
+curl -L https://raw.githubusercontent.com/GabrielGil/c9-lemp/master/install.sh | bash
 ```
 
 ## STEP 4: Start LEMP
@@ -59,7 +55,7 @@ Copy the following text and paste onto the Cloud9 terminal window to download an
 
 
 ```
-curl https://raw.githubusercontent.com/katzueno/mautic-install-shell/master/install-mautic-cloud9.bash | bash
+curl https://raw.githubusercontent.com/katzueno/mautic-install-shell/master/cloud9-install-mautic.bash | bash
 
 ```
 
