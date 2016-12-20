@@ -10,12 +10,8 @@
 # USE IT AT YOUR OWN RISK!
 # LICENSE: MIT License
 
-
-
-
 # VARIABLES
 # ----------
-
 DOWNLOAD_URL="https://github.com/mautic/mautic/archive/2.4.0.zip"
 DESTINATION="/home/ubuntu/workspace"
 VERSION="2.4.0"
