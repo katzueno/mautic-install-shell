@@ -106,7 +106,7 @@ This shell script is released under GPL V2.
 
 [Cloud9](https://c9.io/c/t3lGIvLecba) と呼ばれるクラウドで開発環境を構築できるというサービス上があります。ブラウザだけで、エディタ、FTP (まがい)、ターミナル、Web サーバーが付いた Docker ベースの開発環境です。
 
-このスクリプトは [Mautic Meetup Nagoya](http://www.meetup.com/Mautic-Meetup-Nagoya/) という Mautic 名古屋という勉強会でデモ環境を簡単に作成するために作りました。
+このスクリプトは [Mautic Meetup Nagoya](http://www.meetup.com/Mautic-Meetup-Nagoya/) という Mautic の名古屋コミュニティの勉強会用にデモ環境を簡単に作成するために作りました。
 
 2016年12月に試した際は、このスクリプトの実行に約10分かかりました。
 
