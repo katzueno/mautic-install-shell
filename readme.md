@@ -4,6 +4,8 @@ This is simple shell script to install Mautic on [Cloud9](https://c9.io/c/t3lGIv
 
 I made this shell script for [Mautic Meetup Nagoya](http://www.meetup.com/Mautic-Meetup-Nagoya/) workshops, and creating a quick demo.
 
+When I tested in Dec 2016, it took me for 10 min to complete.
+
 日本語は下記に。
 
 The following is the instruction of how to set-up
@@ -101,6 +103,8 @@ This shell script is released under MIT License.
 [Cloud9](https://c9.io/c/t3lGIvLecba) と呼ばれるクラウドで開発環境を構築できるというサービス上があります。ブラウザだけで、エディタ、FTP (まがい)、ターミナル、Web サーバーが付いた Docker ベースの開発環境です。
 
 このスクリプトは [Mautic Meetup Nagoya](http://www.meetup.com/Mautic-Meetup-Nagoya/) という Mautic 名古屋という勉強会でデモ環境を簡単に作成するために作りました。
+
+2016年12月に試した際は、このスクリプトの実行に約10分かかりました。
 
 セットアップ方法です。
 
