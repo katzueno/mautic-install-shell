@@ -190,11 +190,9 @@ Database Password | mautic
 
 ## クレジット
 
-@katzueno (コンクリートファイブジャパン株式会社)
+@katzueno ([コンクリートファイブジャパン株式会社](https://concrete5.co.jp/))
 
 コンクリートファイブジャパン株式会社では、企業・団体様の concrete5 サイト制作や制作会社様のプロジェクトのサポートを行っています。
-
-https://concrete5.co.jp/
 
 [c9-lemp](https://github.com/GabrielGil/c9-lemp)
 
