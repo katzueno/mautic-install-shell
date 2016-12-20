@@ -8,7 +8,7 @@
 # ----------
 # https://github.com/katzueno/mautic-install-shell
 # USE IT AT YOUR OWN RISK!
-# LICENSE: MIT License
+# LICENSE: GPL V2
 
 # VARIABLES
 # ----------

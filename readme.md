@@ -94,9 +94,13 @@ concrete5 Japan, Inc. is helping various company's concrete5 & Mautic project. P
 
 https://concrete5.co.jp/
 
+[c9-lemp](https://github.com/GabrielGil/c9-lemp)
+
+c9-lemp holds all the script, config files and commands that you might want to use to set up a LEMP environment using NGINX and PHP-FPM instead the default Apache2 runner for PHP applications on Cloud9 workspaces.
+
 ## License
 
-This shell script is released under MIT License.
+This shell script is released under GPL V2.
 
 # Mautic Cloud9 自動インストールシェルスクリプトの紹介
 
@@ -192,7 +196,12 @@ Database Password | mautic
 
 https://concrete5.co.jp/
 
+[c9-lemp](https://github.com/GabrielGil/c9-lemp)
+
+c9-lemp は Cloud9 環境で、LEMP を立ち上げるためのインストールコマンドなどが全て揃ったスクリプトです。
+
+
 ## ライセンス
 
-MIT ライセンスです。
+GPL V2 ライセンスです。
 
