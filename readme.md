@@ -179,10 +179,10 @@ Database Password | mautic
 
 コマンド       | 説明
 ---------------|---------------------
-`lemp start`   | Starts Nginx and PHP
-`lemp stop`    | Stops Nginx and PHP
-`lemp restart` | Restarts Nginx and PHP
-`lemp status`  | Shows the current status
+`lemp start`   | Web サーバー(nginx) と PHP を起動
+`lemp stop`    | Web サーバー(nginx) と PHP を停止
+`lemp restart` | Web サーバー(nginx) と PHP を再起動
+`lemp status`  | ステータスを表示
 
 ## プルリクエスト歓迎
 
