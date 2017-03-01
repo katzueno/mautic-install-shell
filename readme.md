@@ -4,7 +4,7 @@ This is simple shell script to install Mautic on [Cloud9](https://c9.io/c/t3lGIv
 
 I made this shell script for [Mautic Meetup Nagoya](http://www.meetup.com/Mautic-Meetup-Nagoya/) workshops, and creating a quick demo.
 
-When I tested in Dec 2016, it took me for 10 min to complete.
+When I tested in March 2017, it took me for 5 min to complete.
 
 日本語は下記に。
 
@@ -118,7 +118,7 @@ This shell script is released under GPL V2.
 
 このスクリプトは [Mautic Meetup Nagoya](http://www.meetup.com/Mautic-Meetup-Nagoya/) という Mautic の名古屋コミュニティの勉強会用にデモ環境を簡単に作成するために作りました。
 
-2016年12月に試した際は、このスクリプトの実行に約10分かかりました。
+2017年3月に試した際は、このスクリプトの実行に約5分かかりました。
 
 セットアップ方法です。
 
