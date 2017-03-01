@@ -73,7 +73,7 @@ Enter the rest of the required information as you wish.
 
 ## LEMP Commands
 
-**You will not be able to use START and STOP button of Cloud9. You must type the following commands in terminal window to control the web server**
+**You will not be able to use START and STOP button of Cloud9, or use default phpMyAdmin. You must type the following commands in terminal window to control the web server.**
 
 Command        | Description
 ---------------|---------------------
@@ -81,6 +81,16 @@ Command        | Description
 `lemp stop`    | Stops Nginx and PHP
 `lemp restart` | Restarts Nginx and PHP
 `lemp status`  | Shows the current status
+
+## Start MySQL after Cloning
+
+After you clone your workspace, you may have to MySQL server by typing the following command in bash.
+
+```
+mysql-ctl start
+```
+
+to start MySQL in your new workspace.
 
 ## Pull request is welcome!
 
@@ -174,7 +184,7 @@ Database Password | mautic
 
 ## LEMP Commands
 
-**Cloud9 デフォルトのウェブサーバーから変更しているため、通常の START & STOP ボタンが働きません。**ウェブサーバーの操作は下記のコマンドを Bash ターミナルで打ち込んで頂く必要があります。
+**Cloud9 デフォルトのウェブサーバーから変更しているため、通常の START & STOP ボタンが働きません。またデフォルトの phpMyAdmin も動かなくなります。**ウェブサーバーの操作は下記のコマンドを Bash ターミナルで打ち込んで頂く必要があります。
 
 
 コマンド       | 説明
@@ -183,6 +193,16 @@ Database Password | mautic
 `lemp stop`    | Web サーバー(nginx) と PHP を停止
 `lemp restart` | Web サーバー(nginx) と PHP を再起動
 `lemp status`  | ステータスを表示
+
+## Start MySQL after Cloning
+
+Workspace をクローンした後などは MySQL サーバーが停止状態に戻ることがあります。その際は、Bash に
+
+```
+mysql-ctl start
+```
+
+と打ち込んで、MySQL サーバーを起動させてください。
 
 ## プルリクエスト歓迎
 
