@@ -4,7 +4,7 @@ This is simple shell script to install Mautic on [Cloud9](https://c9.io/c/t3lGIv
 
 I made this shell script for [Mautic Meetup Nagoya](http://www.meetup.com/Mautic-Meetup-Nagoya/) workshops, and creating a quick demo.
 
-When I tested in March 2017, it took me for 5 min to complete.
+When I tested in March 2017, it took me for 10 min to complete.
 
 日本語は下記に。
 
@@ -41,13 +41,16 @@ Copy the following text and paste onto the Cloud9 terminal window to download an
 Default
 
 ```
-curl https://raw.githubusercontent.com/katzueno/mautic-install-shell/master/cloud9-install-mautic.bash | bash
+curl https://raw.githubusercontent.com/katzueno/mautic-install-shell/master/cloud9-install-mautic.bash > cloud9-install-mautic.bash
+bash cloud9-install-mautic.bash
 ```
 
 Option
 
+(Somehow the process stops in the middle sometime.)
+
 ```
-curl [Your custom script] | bash
+curl https://raw.githubusercontent.com/katzueno/mautic-install-shell/master/cloud9-install-mautic.bash | bash
 ```
 
 
@@ -118,7 +121,7 @@ This shell script is released under GPL V2.
 
 このスクリプトは [Mautic Meetup Nagoya](http://www.meetup.com/Mautic-Meetup-Nagoya/) という Mautic の名古屋コミュニティの勉強会用にデモ環境を簡単に作成するために作りました。
 
-2017年3月に試した際は、このスクリプトの実行に約5分かかりました。
+2017年3月に試した際は、このスクリプトの実行に約10分かかりました。
 
 セットアップ方法です。
 
@@ -152,13 +155,16 @@ exit;
 デフォルト
 
 ```
-curl https://raw.githubusercontent.com/katzueno/mautic-install-shell/master/cloud9-install-mautic.bash | bash
+curl https://raw.githubusercontent.com/katzueno/mautic-install-shell/master/cloud9-install-mautic.bash > cloud9-install-mautic.bash
+bash cloud9-install-mautic.bash
 ```
 
 オプション
 
+(この方法だと、途中で止まってしまう場合があります。)
+
 ```
-curl [Your custom script] | bash
+curl https://raw.githubusercontent.com/katzueno/mautic-install-shell/master/cloud9-install-mautic.bash | bash
 ```
 
 
