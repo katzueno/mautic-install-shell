@@ -12,9 +12,9 @@
 
 # VARIABLES
 # ----------
-DOWNLOAD_URL="https://github.com/mautic/mautic/archive/2.6.1.zip"
+DOWNLOAD_URL="https://github.com/mautic/mautic/archive/2.7.1.zip"
 DESTINATION="/home/ubuntu/workspace"
-VERSION="2.6.1"
+VERSION="2.7.1"
 INSTALL_LEMP="yes"
 LEMP_NGINX_CONFIG="https://raw.githubusercontent.com/katzueno/mautic-install-shell/master/conf/cloud9-nginx.conf"
 
