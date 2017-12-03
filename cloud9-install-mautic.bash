@@ -28,7 +28,7 @@ if [ "$INSTALL_LEMP" = "yes" ]; then
     sudo wget ${LEMP_NGINX_CONFIG} --output-document=/etc/nginx/sites-available/c9
     sudo chmod 755 /etc/nginx/sites-available/c9
     sudo ln -s /etc/nginx/sites-available/c9 /etc/nginx/sites-enabled/c9
-    sudo apt-get -qq install mcrypt php7.0-mcrypt
+    sudo apt-get -qq install mcrypt php7.0-mcrypt php7.0-bcmath
     lemp restart
     lemp status
 fi
